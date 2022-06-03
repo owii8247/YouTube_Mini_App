@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+
+header>div:nth-child(1) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    /* border: 1px solid red */
+}
+
+#home p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#home i {
+    font-size: 30px;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+i,
+span {
+    cursor: pointer;
+}
+
+header>div:nth-child(2) {
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+header>div:nth-child(2) i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header input {
+    width: 550px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    border-radius: 5px;
+    border-right: 0.5px solid black;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    padding: 5px;
+}
+
+#account {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#hr {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 0.5px;
+    background-color: #535353;
+}
+
+#container2 {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+    /* border: 1px solid red; */
+    margin: bottom 5px;
+    background-color: #FBF4F7;
+}
+
+#container2>div {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid teal; */
+    gap: 5px;
+    margin-bottom: 20px;
+
+}
+
+#content {
+    width: 60%;
+    height: 100%;
+}
+
+#container2 img {
+    border: none;
+    height: 250px;
+    width: 400px;
+    cursor: pointer;
+
+}
+
+#container2 p {
+    font-size: 18px;
+
+}

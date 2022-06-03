@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/322b14b2ff.js" crossorigin="anonymous"></script>
+    <link rel="sortcut icon" href="https://www.youtube.com/s/desktop/4798c010/img/favicon.ico">
+
+    <title>YouTube</title>
+    <link rel="stylesheet" href="./styles/video.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div style=" width:150px; display: flex; justify-content: space-around; align-items: center;">
+                <i style="font-size:20px" class="fa-solid fa-bars"></i>
+                <div id="home">
+                    <i class="fa-brands fa-youtube"></i>
+                    <p> <a href="./index.html"> YouTube</p></a>
+                </div>
+            </div>
+            <div>
+                <input type="search" id="query" placeholder="Search videos">
+                <i onclick="searchVideos()" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <span class="material-symbols-outlined">mic</span>
+            <span class="material-symbols-outlined">video_call</span>
+            <span class="material-symbols-outlined">grid_view </span>
+            <span class="material-symbols-outlined">notifications</span>
+            <img id="account"
+                src="https://lh3.googleusercontent.com/a-/AOh14GjC9wLNX_ZBqeDrIj9XbPNWxzUnQwtXNQdQ57wet5k=s96-c-rg-br100">
+        </div>
+        <div id="hr"></div>
+    </header>
+    <div id="body">
+        <div id="container"></div>
+        <div id="suggest"></div>
+    </div>
+</body>
+
+</html>
+<script src="./script/video.js" defer></script>
